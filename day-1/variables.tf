@@ -1,16 +1,16 @@
 variable "ami_id" {
     description = "inserting ami value to maint.tf"
     type = string
-    default = "ami-0fd05997b4dff7aac"
+    default = "ami-01816d07b1128cd2d"
   
 }
 variable "type" {
     type = string
-    default = "t2.nano"
+    default = "t2.micro"
   
 }
 variable "keyname" {
     type = string
-    default = "aws_key"
+    default = "Ec2DevOps"
   
 }
